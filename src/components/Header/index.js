@@ -17,13 +17,10 @@ const Header = props => {
           alt="website logo"
         />
         <ul className="nav-menu">
-          <Link to="/" className="nav-link">
-            <li>Home</li>
-          </Link>
           <Link to="/posts" className="nav-link">
             <li>Posts</li>
           </Link>
-          <Link to="/cart" className="nav-link">
+          <Link to="/albums" className="nav-link">
             <li>Album</li>
           </Link>
         </ul>

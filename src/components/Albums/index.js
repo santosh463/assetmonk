@@ -4,7 +4,7 @@ import 'react-image-lightbox/style.css'
 import Header from '../Header'
 import './index.css'
 
-class Cart extends Component {
+class Albums extends Component {
   constructor(props) {
     super(props)
 
@@ -83,4 +83,4 @@ class Cart extends Component {
   }
 }
 
-export default Cart
+export default Albums

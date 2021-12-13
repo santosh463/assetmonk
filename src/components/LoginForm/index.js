@@ -12,7 +12,7 @@ class LoginForm extends Component {
 
   onSubmitSuccess = () => {
     const {history} = this.props
-    history.push('/')
+    history.push('/posts')
   }
 
   onSubmitFailure = errorMsg => {
@@ -113,7 +113,7 @@ class LoginForm extends Component {
             type="submit"
             className="login-button"
             onClick={() => {
-              history.push('/')
+              history.push('/posts')
             }}
           >
             Login
